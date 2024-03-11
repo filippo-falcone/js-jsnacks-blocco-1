@@ -11,10 +11,14 @@
 // Variabili
 const numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let numberSum = 0;
+let numberAverage = 0;
 // Funzionalità
 for (let i = 0; i < 10; i++) {
-    console.log(numberList[i]);
     numberSum += numberList[i];
+    numberAverage = numberSum / numberList[i];
 }
 // Output
-console.log(numberSum);
+alert('La somma è: ' + numberSum);
+console.log('somma', numberSum);
+alert('La media è: ' + numberAverage);
+console.log('media', numberAverage);
