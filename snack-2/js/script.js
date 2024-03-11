@@ -14,4 +14,7 @@ let numberSum = 0;
 for (let i = 0; i < 5; i++) {
     const userNumber = parseInt(prompt('Inserisci un numero'));
     console.log(userNumber);
+    numberSum += userNumber;
 }
+// Output
+alert('La somma è: ' + numberSum);
