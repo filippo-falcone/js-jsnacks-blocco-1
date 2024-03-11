@@ -13,6 +13,9 @@ const numberList = [];
 // Funzionlità
 for (let i = 0; i < 5; i++) {
     const userNumber = parseInt(prompt('Inserisci un numero'));
-    console.log(userNumber);
+    if (!numberList.includes(userNumber)) {
+        numberList.push(userNumber);
+    }
 }
 // Output
+console.log(numberList);
