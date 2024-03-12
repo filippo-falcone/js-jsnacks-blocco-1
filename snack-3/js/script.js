@@ -14,7 +14,7 @@
 const numberList = [];
 // Funzionalità
 for (let i = 0; i < 6; i++) {
-    let userNumber = parseInt(prompt('Inserisci un numero'));
+    const userNumber = parseInt(prompt('Inserisci un numero'));
     console.log(userNumber);
     if (userNumber % 2 !== 0) {
         numberList.push(userNumber);
